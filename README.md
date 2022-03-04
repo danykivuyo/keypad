@@ -1,7 +1,8 @@
 # key_pad
 this is an arduino library made for making simple for you to interact with the keypad module. To use it is very simple as its role is to siimplify everything.
 
-
+NOTE
+>>every column should remain connected to ground with a pull down 10kΩ resistors.
 
 
 # how to use
