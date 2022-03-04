@@ -13,6 +13,18 @@ Keypad::Keypad(int A , int B , int C , int D , int C1 , int C2 , int C3)
 }
 
 int Keypad::checkCol(){
+    /*
+        ################################
+        #         The concept          #
+        #                              #
+        #  put all cols to input mode  #
+        #  put all rows to high        #
+        #  listen which col is high    #
+        # return the col which is high #
+        #                              #
+        ################################
+    */
+    
     pinMode(pinA , OUTPUT);
     pinMode(pinB , OUTPUT);
     pinMode(pinC , OUTPUT);
@@ -54,6 +66,18 @@ int Keypad::checkCol(){
 }
 
 int Keypad::checkRow(){
+    /*
+        # ###############################################
+        #                 The concept                   #
+        #                                               #
+        #         put all cols to input mode            #
+        #       put all rows to high one by one         #
+        #         listen when any col is high           #
+        # return the row which caused any col to behigh #
+        #                                               #
+        #################################################
+    */
+    
     pinMode(pinA , OUTPUT);
     pinMode(pinB , OUTPUT);
     pinMode(pinC , OUTPUT);
