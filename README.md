@@ -12,7 +12,7 @@ Open run
 ```win+r```
 
 write
-```cmd``
+```cmd```
 
 click enter
 
