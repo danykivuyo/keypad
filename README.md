@@ -4,6 +4,27 @@ this is an arduino library made for making simple for you to interact with the k
 NOTE
 >>every column should remain connected to ground with a pull down 10kΩ resistors.
 
+# how to install
+
+**1. open comand prompt**
+
+Open run
+```win+r```
+
+write
+```cmd``
+
+click enter
+
+**2. navigate to arduino\libraries**
+
+**3. Download the library**
+
+```bash
+git clone https://github.com/danykivuyo/keypad.git
+```
+
+**4. Restart arduino IDE**
 
 # how to use
 
