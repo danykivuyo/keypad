@@ -7,11 +7,11 @@ NOTE
 
 # how to use
 
-*1. include library
+**1. include library**
 
 ```#include "keypad.h"```
 
-*2. instatiate
+**2. instatiate**
 
 define pins used starting with rows followed by columns
 
@@ -19,10 +19,10 @@ define pins used starting with rows followed by columns
 
 ```Keypad keypad(A , B , C , D , C1 , C2 , C3);```
 
-*3 check if key is pressed then do some shit
+**3 check if key is pressed then do some shit**
 
 ```keypad.keyPressed() //returns true when any key is pressed```
 
-*4 check exactly which key was pressed
+**4 check exactly which key was pressed**
 
 ```keypad.listen(); //returns a pressed charracter```
