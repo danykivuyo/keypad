@@ -1,14 +1,14 @@
 # key_pad
-this is an arduino library made for making simple for you to interact with the keypad module. To use it is very simple as its role is to siimplify everything.
+this is an Arduino library made to make it simple for you to interact with the keypad module. To use it is very simple as its role is to simplify everything.
 
 NOTE
->>every column should remain connected to ground with a pull down 10kΩ resistors.
+>> Every column should remain connected to the ground with pull-down 10kΩ resistors.
 
 # how to install
 
-**1. open comand prompt**
+**1. open command prompt**
 
-Open run
+Open Run
 ```win+r```
 
 write
@@ -16,7 +16,7 @@ write
 
 click enter
 
-**2. navigate to arduino\libraries**
+**2. navigate to Arduino/libraries folder**
 
 **3. Download the library**
 
@@ -24,7 +24,7 @@ click enter
 git clone https://github.com/danykivuyo/keypad.git
 ```
 
-**4. Restart arduino IDE**
+**4. Restart Arduino IDE**
 
 # how to use
 
@@ -32,7 +32,7 @@ git clone https://github.com/danykivuyo/keypad.git
 
 ```#include "keypad.h"```
 
-**2. instatiate**
+**2. instantiate**
 
 define pins used starting with rows followed by columns
 
@@ -40,7 +40,7 @@ define pins used starting with rows followed by columns
 
 ```Keypad keypad(A , B , C , D , C1 , C2 , C3);```
 
-**3 check if key is pressed then do some shit**
+**3 Check if the key is pressed then do some shit**
 
 ```keypad.keyPressed() //returns true when any key is pressed```
 
